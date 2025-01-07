@@ -1,0 +1,44 @@
+:root {
+  --card-height: 65vh;
+  --card-width: calc(var(--card-height) / 1.5);
+}
+
+.navbar {
+  background-color: #ac13ac;
+}
+
+
+
+.head {
+  color: #ac13ac;
+  font-family: "Titan One", cursive;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 5rem;
+}
+
+.jokes {
+  color: #f3ebf3;
+  background-color: #ac13ac;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.jokes:hover {
+color: black;
+background-color: #f3ebf3;
+transition: 1s;
+}
+
+p {
+  color: rgb(14, 0, 11);
+  font-size: 24px;
+  font-family: "Titan One", cursive;
+}
+
+.card-header {
+  font-size: 2rem;
+  font-family: 'Times New Roman', Times, serif;
+}
